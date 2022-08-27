@@ -11,7 +11,7 @@
 
 ##### Getting Started
 - clone the repository by running\
-    `git clone https://github.com/aimemalaika/hello-react-front-end.git`
+    `git clone https://github.com/sangwa7/hello-react-front-end.git`
 - navigate to the folder\
     `cd hello-react-front-end`
 - Install packages\
