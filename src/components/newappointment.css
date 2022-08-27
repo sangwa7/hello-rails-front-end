@@ -1,0 +1,130 @@
+.body-holder {
+  height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(
+      to right,
+      rgba(17, 130, 59, 0.8),
+      rgba(30, 20, 150, 0.8)
+    ),
+    url("https://www.hospitalsafetygrade.org/media/image/leapfrog-anniversary-bg.jpg")
+    repeat fixed;
+  background-size: cover;
+}
+
+.newAppointments-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.holder {
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(160, 154, 154, 0),
+      rgb(13, 7, 66)
+    );
+  min-height: 500px;
+  width: 80%;
+  margin-left: 10%;
+  place-content: center;
+}
+
+.holder h2 {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 1.25rem;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+}
+
+.holder h3 {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  padding: 1.25rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.holder form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.holder form label {
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.holder form input {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 2rem;
+}
+
+.holder form .selectDoctor {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.holder form button {
+  width: 60%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 762px) {
+  .holder form input {
+    width: 40%;
+  }
+
+  .holder form .selectDoctor {
+    width: 40%;
+  }
+
+  .holder form button {
+    width: 40%;
+  }
+}
+
+.newAppointment-warning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  color: rgb(238, 83, 83);
+}

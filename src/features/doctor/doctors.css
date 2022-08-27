@@ -1,0 +1,182 @@
+.allDoctors-container {
+  margin: 3rem auto;
+}
+
+.allDoctors-subcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.displayDoctors-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pg-btn {
+  border: none;
+  background-color: #97bf0f;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.pg-btn:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.pg-btn-left {
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.pg-btn-right {
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+
+.allDoctors-heading {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.allDoctors-script {
+  font-weight: bold;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.allDoctors-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.allDoctors-doctor-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.allDoctors-doctor-speciality {
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+}
+
+.allDoctors-each-doctor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  .allDoctors-list {
+    flex-direction: row;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .allDoctors-doctor-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+
+  .allDoctors-subcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+  }
+}
+
+/* Styling for DoctorView */
+
+.doctorView-container {
+  margin: 3rem auto;
+  padding: 0 2rem;
+
+  /* display: flex;
+  flex-direction: column;  */
+
+  /* gap: 2rem;  */
+}
+
+.doctorView-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.doctorView-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.doctorView-info {
+  text-align: right;
+}
+
+.doctorView-reserve {
+  display: block;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  background: #97bf0f;
+  border-radius: 16px;
+  margin: 2rem auto 0;
+  color: white;
+}
+
+.p1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.25rem;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  background-color: rgb(235, 235, 235);
+}
+
+.doctor-bio {
+  width: 18rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.p2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .doctorView-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .doctorView-subContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .doctorView-image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .p2 {
+    display: block;
+  }
+}

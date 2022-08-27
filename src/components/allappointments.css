@@ -1,0 +1,58 @@
+
+.body-holder {
+  height: 100vh;
+  width: 100%;
+  background:
+    linear-gradient(
+      to right,
+      rgba(17, 130, 59, 0.8),
+      rgba(30, 20, 150, 0.8)
+    ),
+    url("https://www.hospitalsafetygrade.org/media/image/leapfrog-anniversary-bg.jpg")
+    repeat fixed;
+  background-size: cover;
+}
+
+.content h2 {
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+}
+
+.card .card-holder {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  width: 300px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 2px 2px 4px #0000002f;
+}
+
+.card .card-holder img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card h3 {
+  color: rgb(1, 0, 29);
+  margin: 20px;
+}
+
+.card p {
+  color: orange;
+  margin: 25px;
+  font-weight: bold;
+}
